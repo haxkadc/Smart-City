@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.TrafficDeviationController">
+   <children>
+      <ImageView fitHeight="1072.0" fitWidth="1702.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/FMIXB49.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="204.0" layoutY="139.0" text="TRAFFIC DEVIATION" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+      <TextField fx:id="targaInput" layoutX="702.0" layoutY="289.0" promptText="LICENSE PLATE">
+         <font>
+            <Font name="Tahoma" size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="782.0" layoutY="379.0" mnemonicParsing="false" onAction="#trafficDev" text="INSERT">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="52.0" layoutY="700.0" mnemonicParsing="false" onAction="#backToMenu" text="BACK">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="1403.0" layoutY="703.0" mnemonicParsing="false" onAction="#backHome" text="MENU">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="215.0" layoutY="281.0" text="WITH THIS SOLUTION THE ">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="320.0" text="TRAFFIC WILL BE DEVIATED">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="357.0" text="ON VIA NAPOLI">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="343.0" fitWidth="373.0" layoutX="1145.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Football-Deviation.gif" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

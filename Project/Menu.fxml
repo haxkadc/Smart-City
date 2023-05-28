@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.MenuController">
+   <children>
+      <ImageView fitHeight="1052.0" fitWidth="1604.0" layoutX="-4.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/locomobi-smart-city-1920x1080px.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="261.0" layoutY="355.0" mnemonicParsing="false" onAction="#streetButtonPushed" text="STREETS DETAILS" textFill="#65cffd">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="261.0" layoutY="463.0" mnemonicParsing="false" onAction="#addColumnButtonPushed" text="ADD NEW COLUMN" textFill="#65cffd">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="261.0" layoutY="576.0" mnemonicParsing="false" onAction="#graphichButtonPushed" text="STATISTICAL GRAPHIC OF LAST YEAR" textFill="#65cffd">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+      </Button>
+      <Label layoutX="262.0" layoutY="203.0" text="CHOOSE  AN  ITEM  FROM  MENU" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="48.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

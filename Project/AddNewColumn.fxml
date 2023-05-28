@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.AddNewColumnController">
+   <children>
+      <ImageView fitHeight="940.0" fitWidth="1718.0" layoutX="-25.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/FMIXB49.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="274.0" layoutY="485.0" mnemonicParsing="false" onAction="#addColumn" text="INSERT">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font></Button>
+      <TextField fx:id="nomeInput" layoutX="192.0" layoutY="314.0" promptText="STREET">
+         <font>
+            <Font name="Tahoma" size="24.0" />
+         </font></TextField>
+      <TextField fx:id="numInput" layoutX="192.0" layoutY="396.0" promptText="ID COLUMN">
+         <font>
+            <Font name="Tahoma" size="24.0" />
+         </font></TextField>
+      <Label layoutX="163.0" layoutY="93.0" text="ADD NEW COLUMN" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+      <Label layoutX="1406.0" layoutY="148.0" />
+      <Button layoutX="55.0" layoutY="742.0" mnemonicParsing="false" onAction="#backToMenu" text="BACK">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="269.0" fitWidth="359.0" layoutX="852.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="nomeInput2" layoutX="955.0" layoutY="314.0" promptText="STREET">
+         <font>
+            <Font name="Tahoma" size="24.0" />
+         </font></TextField>
+      <Button layoutX="1099.0" layoutY="485.0" mnemonicParsing="false" onAction="#removeMobileColumn" text="REMOVE">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font></Button>
+      <Button layoutX="989.0" layoutY="485.0" mnemonicParsing="false" onAction="#mobileColumn" text="ADD">
+         <font>
+            <Font name="Tahoma Bold" size="24.0" />
+         </font></Button>
+      <Label layoutX="900.0" layoutY="93.0" text="ADD NEW MOBILE COLUMN" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

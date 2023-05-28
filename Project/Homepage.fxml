@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controller">
+   <children>
+      <ImageView fitHeight="1036.0" fitWidth="1610.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-136.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-110.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="file:/D:/Antonio/Desktop/Prog3/smartCity/images/locomobi-smart-city-1920x1080px.png" />
+         </image>
+      </ImageView>
+      <Button defaultButton="true" layoutX="648.0" layoutY="631.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" text="ENTER" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="201.0" layoutY="243.0" text="SMART CITY" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="63.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
