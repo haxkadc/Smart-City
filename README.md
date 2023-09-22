@@ -27,20 +27,24 @@ If the <tt>$\color{red}{Codice}$ $\color{red}{Rosso}$</tt> occurs, one of the fo
 The system also allows you to insert new sensors to the network and make the graph parameters for a set period.
 
 ## Tool used
-  ☑️  Eclipse IDE for Java Developers
+<img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"/> Eclipse IDE for Java Developers
   
-  ☑️  Java FX con SceneBuilder
+<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white"/> Java FX con SceneBuilder
   
+<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white"/> DB access and development with SQLDeveloper
+
   ☑️  Design pattern
-  
-  ☑️  DB access and development with SQLDeveloper
+
 </br></br>
+
  
 
 ## Design Pattern
 
 <tt> $\color{darkblue}{■}$  $\color{darkblue}{SINGLETON}$ </tt></br>
+
 <tt> $\color{darkblue}{■}$  $\color{darkblue}{MEMENTO}$ </tt></br>
+
 <tt> $\color{darkblue}{■}$  $\color{darkblue}{STRATEGY}$ </tt></br>
 </br></br>
 
